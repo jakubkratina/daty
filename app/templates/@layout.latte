@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="robots" content="{$robots}" n:ifset="$robots">
+
+	<title>Daty test app</title>
+
+	<link rel="stylesheet" href="{$basePath}/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="{$basePath}/css/bootstrap_datagrid.css">
+	<link rel="stylesheet" href="{$basePath}/css/screen.css">
+
+	<link rel="shortcut icon" href="{$basePath}/favicon.ico">
+
+	<script type="text/javascript" language="javascript" src="{$basePath}/dataTable/media/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="{$basePath}/dataTable/media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="{$basePath}/js/DT_bootstrap.js"></script>
+	{block head}{/block}
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="masthead">
+		<h3 class="muted">Daty test application</h3>
+	</div>
+
+	<div n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</div>
+
+	<hr>
+
+		{include #content}
+
+	<hr>
+
+	<div class="footer">
+		<p>&copy; Jakub Kratina 2013</p>
+	</div>
+
+</div> <!-- /container -->
+
+</body>
+</html>

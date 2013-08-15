@@ -1,0 +1,11 @@
+parameters:
+
+nette:
+	database:
+		dsn: 'mysql:host=localhost;dbname=daty'
+		user: 'root'
+		password:
+
+services:
+
+factories:
