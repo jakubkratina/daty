@@ -18,6 +18,7 @@
     <file path="/default.latte" changelist="784924d7-9821-4b5c-bc19-b3e4e995140d" time="1376603417353" ignored="false" />
     <file path="$PROJECT_DIR$/temp/cache/_Nette.FileTemplate/_Homepage.default.latte-3df590242a5c39b761aa7283762fd868.php" changelist="784924d7-9821-4b5c-bc19-b3e4e995140d" time="1376603480043" ignored="false" />
     <file path="/bootstrap_datagrid.css" changelist="784924d7-9821-4b5c-bc19-b3e4e995140d" time="1376603128379" ignored="false" />
+    <file path="/README.md" changelist="784924d7-9821-4b5c-bc19-b3e4e995140d" time="1376603702272" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +38,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomepagePresenter.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomepagePresenter.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029275808">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.76">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="12" selection-start="68" selection-end="68" vertical-scroll-proportion="0.16913946">
               <folding />
             </state>
           </provider>
@@ -87,6 +97,7 @@
         <option value="$PROJECT_DIR$/app/templates/Homepage/default.latte" />
         <option value="$PROJECT_DIR$/libs/DebtorFileParser.php" />
         <option value="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -474,13 +485,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/config.local.neon">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="87" selection-end="87" vertical-scroll-proportion="0.14094956">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/PHPExcel/Cell/DataType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -583,7 +587,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029275808">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="68" selection-end="68" vertical-scroll-proportion="0.16913946">
           <folding />
         </state>
       </provider>
